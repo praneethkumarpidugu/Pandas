@@ -1,0 +1,326 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello World\n"
+     ]
+    }
+   ],
+   "source": [
+    "print \"Hello World\""
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Here is where we can provide some documentation"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": [
+    "x = 5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "5\n"
+     ]
+    }
+   ],
+   "source": [
+    "print x"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": [
+    "def square(input_var):\n",
+    "    return input_var * input_var"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "4"
+      ]
+     },
+     "execution_count": 5,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "square(2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "81"
+      ]
+     },
+     "execution_count": 6,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "square(9)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "25"
+      ]
+     },
+     "execution_count": 7,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "square(x)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "\u001b[H\u001b[2J"
+     ]
+    }
+   ],
+   "source": [
+    "clear"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "\u001b[34mApplications\u001b[m\u001b[m/                   \u001b[34mWebstormProjects\u001b[m\u001b[m/\r\n",
+      "\u001b[34mDesktop\u001b[m\u001b[m/                        \u001b[34manaconda\u001b[m\u001b[m/\r\n",
+      "\u001b[34mDisktop\u001b[m\u001b[m/                        courses.txt\r\n",
+      "\u001b[34mDocuments\u001b[m\u001b[m/                      \u001b[34menv\u001b[m\u001b[m/\r\n",
+      "\u001b[34mDownloads\u001b[m\u001b[m/                      \u001b[34mfullstack\u001b[m\u001b[m/\r\n",
+      "\u001b[34mLibrary\u001b[m\u001b[m/                        \u001b[34mnew\u001b[m\u001b[m/\r\n",
+      "\u001b[34mMovies\u001b[m\u001b[m/                         r2.txt\r\n",
+      "\u001b[34mMusic\u001b[m\u001b[m/                          r4.txt\r\n",
+      "\u001b[34mPictures\u001b[m\u001b[m/                       r5.txt\r\n",
+      "\u001b[34mPublic\u001b[m\u001b[m/                         \u001b[34mregister\u001b[m\u001b[m/\r\n",
+      "\u001b[34mPycharmProjects\u001b[m\u001b[m/                setuptools-18.0.1.zip\r\n",
+      "\u001b[34mTest_Driven_development_python\u001b[m\u001b[m/ \u001b[34msrc\u001b[m\u001b[m/\r\n",
+      "Untitled.ipynb                  sshkey\r\n",
+      "Untitled.txt                    sshkey.pub\r\n",
+      "Untitled1.ipynb                 \u001b[34mtmp\u001b[m\u001b[m/\r\n",
+      "\u001b[34mVirtualBox VMs\u001b[m\u001b[m/                 \u001b[34mwp-calypso\u001b[m\u001b[m/\r\n"
+     ]
+    }
+   ],
+   "source": [
+    "ls"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": [
+    "%quickref"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Object `datetime` not found.\n"
+     ]
+    }
+   ],
+   "source": [
+    "datetime?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": [
+    "from datetime import datetime"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": [
+    "datetime?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": [
+    "?square"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": [
+    "square?\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": [
+    "square?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "The slowest run took 14.14 times longer than the fastest. This could mean that an intermediate result is being cached \n",
+      "10000000 loops, best of 3: 152 ns per loop\n"
+     ]
+    }
+   ],
+   "source": [
+    "%timeit square(x)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 2",
+   "language": "python",
+   "name": "python2"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 2
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython2",
+   "version": "2.7.11"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 0
+}
